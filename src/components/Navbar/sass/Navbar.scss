@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow:-13px -3px 6px 1px black ;
+    .nav-logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 28px;
+        img{
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+        }
+        p{
+            color: black;
+            font-weight: 600;
+        }
+        span{
+            color: red;
+        }
+    }
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        gap: 50px;
+        font-size: 23px;
+        font-weight: 600;
+            li{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                cursor: pointer;
+                
+            }
+            hr{
+                margin-top: 5px;
+                border: none;
+                width: 90%;
+                height: 3px;
+                border-radius: 10px;
+                background-color: red;
+            }
+       
+    }
+     .nav-login-cart{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        button{
+            border-radius: 20px;
+            padding: 10px 30px;
+            outline: none;
+            border: 1px solid #7a7a7a;
+            color: #515151;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: 600;
+            &:active{
+                background-color: #807979;
+            }
+            &:hover{
+                background-color: #afa5a5;
+            }
+        }
+        img{
+            width: 30px;
+        }
+        .nav-cart-count{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: -35px 0 0 -37px;
+            font-size: 14px;
+            background-color: red;
+            color: white;
+        }
+     }
+    
+}

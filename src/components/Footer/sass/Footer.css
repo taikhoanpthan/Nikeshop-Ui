@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.footer .footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer .footer__logo img {
+  width: 70px;
+}
+.footer .footer__logo p {
+  color: gray;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer .footer-links {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  color: #252525;
+  font-size: 20px;
+}
+.footer .footer-links li {
+  cursor: pointer;
+}
+.footer .footer-socia-icon {
+  display: flex;
+  gap: 20px;
+}
+.footer .footer-socia-icon .footer-icons-container {
+  padding: 10px;
+  padding-bottom: 6px;
+  background: white;
+  border: 1px white solid;
+}
+.footer .footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 20px;
+}
+.footer .footer-copyright hr {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background: gray;
+}/*# sourceMappingURL=Footer.css.map */
